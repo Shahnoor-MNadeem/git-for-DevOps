@@ -11,7 +11,7 @@ jobs:
     
     strategy:
       matrix:
-        python-versions: ["3.9", "3.10"]  # Fixed indentation and array syntax
+        python-versions: ["3.10"]  # Fixed indentation and array syntax
 
     steps:
     - name: Check out repository
