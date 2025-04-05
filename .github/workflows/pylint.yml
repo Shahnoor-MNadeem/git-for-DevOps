@@ -6,7 +6,7 @@ on:
       - master
 
 Jobs:
-  Build: 
+  build: 
     runs-on: ubuntu-lastest 
     strategy:
     matrix:
